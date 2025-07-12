@@ -1,0 +1,70 @@
+.bug-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 6px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.bug-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.bug-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.bug-card p {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.status-badge.open {
+  background-color: #e74c3c;
+}
+
+.status-badge.in-progress {
+  background-color: #f1c40f;
+  color: black;
+}
+
+.status-badge.resolved {
+  background-color: #2ecc71;
+}
+
+.bug-card select {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.bug-card button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.bug-card button:hover {
+  background-color: #c0392b;
+}
