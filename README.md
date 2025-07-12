@@ -104,7 +104,7 @@ Tests:
 
 Mongo DB Compass
 
-![MongoDB Compass linked](mern-bug-tracker/frontend/public/mongo.png)
+![MongoDB Compass linked](/mern-bug-tracker/frontend/public/mongo.png)
 
 ### Frontend Tests
 
@@ -146,16 +146,16 @@ Tests:
 
 Add screenshots or GIFs of:
 - Reporting a bug
-![reporting a bug](mern-bug-tracker/frontend/public/reportingbug.png)
+![reporting a bug](/mern-bug-tracker/frontend/public/reportingbug.png)
 
 - Updating status
-![updates status](mern-bug-tracker/frontend/public/filterByStatus.png)
+![updates status](/mern-bug-tracker/frontend/public/filterByStatus.png)
 
 - Filtering/search
-![search](mern-bug-tracker/frontend/public/search.png)
+![search](/mern-bug-tracker/frontend/public/search.png)
 
 - Test results
-![test results](mern-bug-tracker/frontend/public/test.png)
+![test results](/mern-bug-tracker/frontend/public/test.png)
 ---
 
 ## 📌 Future Improvements
