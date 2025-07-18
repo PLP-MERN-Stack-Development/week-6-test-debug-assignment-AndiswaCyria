@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
     "dev": "nodemon server.js",
-    "start": "node server,js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -25,3 +25,4 @@
     "supertest": "^7.1.3"
   }
 }
+
