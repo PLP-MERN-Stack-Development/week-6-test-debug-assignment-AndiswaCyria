@@ -14,7 +14,7 @@ const BugForm = ({ onBugCreated }) => {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/api/bugs', {
+      const res = await fetch('https://week-6-test-debug-assignment-andiswacyria.onrender.com/api/bugs', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title, description }),
