@@ -26,6 +26,7 @@ const BugForm = ({ onBugCreated }) => {
         setTitle('');
         setDescription('');
       } else {
+        const errorData = await res.json().catch(() => ({}));
         alert(data.message || 'Failed to submit bug');
       }
     } catch (error) {
