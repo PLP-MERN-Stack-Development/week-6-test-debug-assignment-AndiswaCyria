@@ -9,7 +9,7 @@ function App() {
 
   // Fetch bugs from the backend
   const fetchBugs = () => {
-    fetch('http://localhost:5000/api/bugs')
+    fetch('https://week-6-test-debug-assignment-yx8d.onrender.com/api/bugs')
       .then(res => res.json())
       .then(setBugs)
       .catch(err => setError('Failed to load bugs'));
@@ -27,7 +27,7 @@ function App() {
    // Function to update bug status
   const updateStatus = async (id, newStatus) => {
   try {
-    const res = await fetch(`http://localhost:5000/api/bugs/${id}`, {
+    const res = await fetch(`https://week-6-test-debug-assignment-yx8d.onrender.com/api/bugs${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status: newStatus }),
@@ -50,7 +50,7 @@ const deleteBug = async (id) => {
   if (!window.confirm('Are you sure you want to delete this bug?')) return;
 
   try {
-    const res = await fetch(`http://localhost:5000/api/bugs/${id}`, {
+    const res = await fetch(`https://week-6-test-debug-assignment-yx8d.onrender.com/api/bugs${id}`, {
       method: 'DELETE',
     });
 
