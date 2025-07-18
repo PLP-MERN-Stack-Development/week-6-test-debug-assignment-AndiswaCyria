@@ -18,7 +18,7 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost/mern-bug-tracker';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://andiswacyriam:Thisis2025@plp.bjw4seu.mongodb.net/?retryWrites=true&w=majority&appName=PLP';
 
 mongoose
   .connect(MONGO_URI)
